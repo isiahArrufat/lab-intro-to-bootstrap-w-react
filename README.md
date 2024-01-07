@@ -22,13 +22,13 @@ This application contains a few files of which you should be aware.
 
 - `public/index.html`: The Bootstrap CSS CDN is already included in this file. You _should not_ need to make any changes.
 
-- `src/App.js`: This is the entry file into your React application. You should begin building and importing your components here.
+- `src/App.jsx`: This is the entry file into your React application. You should begin building and importing your components here.
 
 - `src/index.css`: This file imports a [Google Font](https://fonts.google.com/) that you will use as part of designing your application. You can apply the font using the `.script-font` class, also included in this file. Finally, another class will help you to set the size of certain images.
 
 - `src/data/posts.json`: This JSON file contains data for the posts. You will use this data to populate your page.
 
-- `src/images`: This folder contains images to use in tandem with the `posts.json` file. The `index.js` file in here is optional to use, but can make it easier to export the images.
+- `src/images`: This folder contains images to use in tandem with the `posts.json` file. The `index.js` (not `.jsx`) file in this folder is optional to use, but can make it easier to export the images.
 
 ## Instructions
 
